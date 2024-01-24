@@ -22507,16 +22507,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-confirm-alert@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "react-confirm-alert@npm:3.0.6"
-  peerDependencies:
-    react: ">=18.0.0"
-    react-dom: ">=10.0.0"
-  checksum: 9ae9bfff2bf4cc5d64e0fa1a2b6b2c01415871baf646c1b43ffebe01a9c97133ea4fe8a0a962a72db11a4d74d2c22189eef088ed76cd1aefec0fbc87aae5951a
-  languageName: node
-  linkType: hard
-
 "react-dev-utils@npm:^11.0.3":
   version: 11.0.4
   resolution: "react-dev-utils@npm:11.0.4"
@@ -22679,6 +22669,15 @@ __metadata:
   version: 6.0.11
   resolution: "react-error-overlay@npm:6.0.11"
   checksum: ce7b44c38fadba9cedd7c095cf39192e632daeccf1d0747292ed524f17dcb056d16bc197ddee5723f9dd888f0b9b19c3b486c430319e30504289b9296f2d2c42
+  languageName: node
+  linkType: hard
+
+"react-fade-in@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "react-fade-in@npm:2.0.1"
+  peerDependencies:
+    react: ^16.8 || 17
+  checksum: 34e6ddf1641417e170a268b07b514d3207603b14a56bc9836372828b72782df16e51d3bd066a271e6f6c7e2bf2916b100b72b06dd20a5447d965b16f78160cd5
   languageName: node
   linkType: hard
 
@@ -23374,8 +23373,8 @@ __metadata:
     mime: ^3.0.0
     prettier: ^3.0.3
     react: 18.2.0
-    react-confirm-alert: ^3.0.6
     react-dom: 18.2.0
+    react-fade-in: ^2.0.1
     react-ga4: ^2.1.0
     react-hotkeys: ^2.0.0
     react-icons: ^4.11.0
